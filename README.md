@@ -45,7 +45,7 @@ This project includes a [Databricks Asset Bundle (DAB)](https://docs.databricks.
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/databricks/app-templates
+   git clone [https://github.com/databricks/app-templates](https://github.com/dta2810/databricks_app_ai_chatbot_w_images.git)
    cd e2e-chatbot-app-next
    ```
 2. **Databricks authentication**: Ensure auth is configured as described in [Prerequisites](#prerequisites).
@@ -314,7 +314,6 @@ Both jobs run in parallel for faster CI feedback.
 
 ## Known limitations
 
-- No support for image or other multi-modal inputs
 - The most common and officially recommended authentication methods for Databricks are supported: Databricks CLI auth for local development, and Databricks service principal auth for deployed apps. Other authentication mechanisms (PAT, Azure MSI, etc) are not currently supported.
 - We create one database per app, because the app code targets a fixed `ai_chatbot` schema within the database instance. To host multiple apps out of the same instance, you can:
   - Update the database instance name in `databricks.yml`
