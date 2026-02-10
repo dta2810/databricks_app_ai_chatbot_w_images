@@ -314,7 +314,6 @@ Both jobs run in parallel for faster CI feedback.
 
 ## Known limitations
 
-- No support for image or other multi-modal inputs
 - The most common and officially recommended authentication methods for Databricks are supported: Databricks CLI auth for local development, and Databricks service principal auth for deployed apps. Other authentication mechanisms (PAT, Azure MSI, etc) are not currently supported.
 - We create one database per app, because the app code targets a fixed `ai_chatbot` schema within the database instance. To host multiple apps out of the same instance, you can:
   - Update the database instance name in `databricks.yml`
