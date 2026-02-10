@@ -45,7 +45,7 @@ This project includes a [Databricks Asset Bundle (DAB)](https://docs.databricks.
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/databricks/app-templates
+   git clone [https://github.com/databricks/app-templates](https://github.com/dta2810/databricks_app_ai_chatbot_w_images.git)
    cd e2e-chatbot-app-next
    ```
 2. **Databricks authentication**: Ensure auth is configured as described in [Prerequisites](#prerequisites).
